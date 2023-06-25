@@ -7,8 +7,8 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+#define A 5 //A변수에 5대입
+int main(void) { //main함수 시작
+    printf("수제비 %d\n", A); //%d에 A변수 5대입하여 "수제비 5" 출력
+    return 0; //0을 리턴하여 메인함수 종료
 }
